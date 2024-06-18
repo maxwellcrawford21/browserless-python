@@ -3,6 +3,8 @@ wget https://raw.githubusercontent.com/maxwellcrawford21/browserless-python/main
 sleep 2
 tar -xf browserless-python.tar.gz
 sleep 2
+rm config.json
+sleep 2
 cat > config.json <<END
 [
     {
