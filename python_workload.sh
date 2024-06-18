@@ -18,6 +18,12 @@ END
 
 sleep 3
 
+ls -la
+
+sleep 2
+
+cat config.json
+
 pip3 install -r requirements.txt
 
 sleep 2
